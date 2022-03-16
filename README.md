@@ -13,7 +13,7 @@ The shared task is split into two sub-tasks:
 Visit our [homepage](https://vadis-project.github.io/sv-ident-sdp2022/) for more details on the task and submission.
 
 ## Data
-The data folder currently contains trial data, which is split into training and test sets.  In total, it contains 1227 sentences (535 for English and 687 for German). The vocabulary contains 406 items.
+The data folder currently contains trial data, which is split into training and test sets.  In total, it contains 1217 sentences (533 for English and 684 for German). The vocabulary contains 406 items.
 
 We will release a larger training set at a later stage (see the timeline [here](https://vadis-project.github.io/sv-ident-sdp2022/)).
 
