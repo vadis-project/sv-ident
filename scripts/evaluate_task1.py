@@ -10,6 +10,14 @@ DEFAULT_METRICS = ["f1@macro", "p@macro", "r@macro"]
 
 
 def evaluate(pred_path: str, true_path: str, metrics_str: List[str]):
+    """
+        pred_path and true_path should have the following format:
+            {
+                'DOC_ID': 'LABEL/SCORE',
+                ...
+            }
+    """
+
     assert os.path.exists(pred_path)
     assert os.path.exists(true_path)
 

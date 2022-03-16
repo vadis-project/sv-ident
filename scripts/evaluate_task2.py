@@ -31,6 +31,17 @@ def _evaluate(
 
 
 def evaluate(qrels_path: str, run_path: str, metrics_str: List[str]):
+    """
+    qrels_path and run_path should have the following format:
+        {
+            'DOC_ID': {
+                'VAR_ID': 'LABEL/SCORE'
+                ...
+            },
+            ...
+        }
+    """
+    
     assert os.path.exists(qrels_path)
     assert os.path.exists(run_path)
 
