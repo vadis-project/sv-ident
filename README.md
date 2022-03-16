@@ -18,7 +18,7 @@ The data folder currently contains trial data, which is split into training and 
 We will release a larger training set at a later stage (see the timeline [here](https://vadis-project.github.io/sv-ident-sdp2022/)).
 
 ## Baselines
-We provide lexical and neural baselines for both tasks. The notebooks can be used a starting point.
+We provide lexical and neural baselines for both tasks. The [notebooks](https://github.com/vadis-project/sv-ident/tree/main/notebooks) can be used as a starting point.
 
 ### Installation
 The code was tested using Python 3.8
@@ -33,7 +33,7 @@ pip3 install -r requirements.txt
 If you just wish to only install the dependencies for the evaluation, you can install those using `requirements.eval.txt`.
 
 ## Evaluation
-To evaluate your performance, you can use the [evaluation scripts]() for each task.
+To evaluate your performance, you can use the [evaluation scripts](https://github.com/vadis-project/sv-ident/tree/main/scripts) for each task.
 
 ## Repository Structure
 ```
