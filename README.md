@@ -13,7 +13,25 @@ The shared task is split into two sub-tasks:
 Visit our [homepage](https://vadis-project.github.io/sv-ident-sdp2022/) for more details on the task and submission.
 
 ## Data
-The data folder currently contains trial data, which is split into training and test sets.  In total, it contains 1217 sentences (533 for English and 684 for German). The vocabulary contains 406 items.
+The data folder currently contains trial data, which is split into training and test sets.  In total, it contains 1217 sentences (533 for English and 684 for German). The files contain the following columns:
+
+```
+doc_id:         ID of the source document.
+text:           Textual instance, which may contain a variable mention.
+is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0).
+variable:       Variables (separated by a comma ",") that are mentioned in the textual instance. The variable ID number is to the left of the hyphen "-", while to the right, "yes" variables are those that are mentioned in the textual instance and "no" variables are those that are semantically relevant, but are not mentioned in the text.
+uuid:           Unique ID of the instance in uuid4 format.
+```
+
+The vocabulary contains 406 (182 for English and 224 for German) items. The file contain the following columns:
+
+```
+id:             ID of the variable.
+label:          Label of the variable.
+topic:          Topic of the variable.
+question:       Variable question text.
+answer:         Comma "," separated possible answer choices to the question.
+```
 
 We will release a larger training set at a later stage (see the timeline [here](https://vadis-project.github.io/sv-ident-sdp2022/)).
 
