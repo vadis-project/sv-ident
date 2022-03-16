@@ -23,7 +23,7 @@ variable:       Variables (separated by a comma ",") that are mentioned in the t
 uuid:           Unique ID of the instance in uuid4 format.
 ```
 
-The vocabulary contains 406 (182 for English and 224 for German) items. The file contain the following columns:
+The vocabulary contains 406 items (182 for English and 224 for German). The file contain the following columns:
 
 ```
 id:             ID of the variable.
