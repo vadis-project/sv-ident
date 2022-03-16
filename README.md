@@ -60,7 +60,6 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 │   └── evaluate_task2.ipynb
 ├── .gitignore
 ├── README.md
-├── guideline_v1.pdf
 ├── requirements.eval.pdf
 └── requirements.txt
 ```
