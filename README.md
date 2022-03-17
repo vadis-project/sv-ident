@@ -86,7 +86,7 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 │   │   └── dense_retrieval.ipynb
 ├── scripts
 │   ├── evaluate_task1.py
-│   └── evaluate_task2.ipynb
+│   └── evaluate_task2.py
 ├── .gitignore
 ├── README.md
 ├── requirements.eval.pdf
