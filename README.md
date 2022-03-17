@@ -1,9 +1,9 @@
 # SV-Ident: Survey Variable Identification Shared Task (2022)
 
-This is the repository for the shared task SV-Ident: Survey Variable Identification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
+This is the repository for the shared task SV-Ident: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
 
 ## Task Description
-The task aims to build systems that, given a social science publication, can robustly identify all mentions of relevant survey variables. 
+The task aims to build systems that, given a scientific social science publication, can robustly identify all mentions of relevant survey variables (see [http://www.aclweb.org/anthology/W17-2907](http://www.aclweb.org/anthology/W17-2907) for more explanations). 
 
 The shared task is split into two sub-tasks:
 
@@ -13,7 +13,7 @@ The shared task is split into two sub-tasks:
 Visit our [homepage](https://vadis-project.github.io/sv-ident-sdp2022/) for more details on the task and submission.
 
 ## Data
-The data folder currently contains trial data, which is split into training and test sets.  In total, it contains 1217 sentences (533 for English and 684 for German). The files contain the following columns:
+The data folder currently contains trial data, which is split into training and test sets. In total, it contains 1217 sentences (533 for English and 684 for German). The files contain the following columns:
 
 ```
 doc_id:         ID of the source document.
