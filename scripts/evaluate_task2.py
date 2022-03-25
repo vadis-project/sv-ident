@@ -77,6 +77,7 @@ def evaluate(qrels_path: str, run_path: str, metrics_str: List[str]):
     scores = _evaluate(qrels, run, metrics)
     formatted_scores = {k.replace("_","@"): v for k,v in scores.items()}
     print(formatted_scores)
+    return scores
 
 
 if __name__ == "__main__":
