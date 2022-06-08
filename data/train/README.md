@@ -53,3 +53,5 @@ An example of a single variable can be seen below:
   ]
 }
 ```
+
+The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json).
