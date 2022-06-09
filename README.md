@@ -1,6 +1,6 @@
 # SV-Ident: Survey Variable Identification Shared Task (2022)
 
-This is the repository for the shared task SV-Ident: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
+This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
 
 ## News
 > **June 8, 2022:**

@@ -7,8 +7,8 @@ This folder currently contains training data. In total, it contains 1980 sentenc
 
 ```
 sentence:       Textual instance, which may contain a variable mention.
-is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0).
-variable:       Variables (separated by a comma ";") that are mentioned in the textual instance.
+is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0). This column can be used for Task 1 (Variable Detection).
+variable:       Variables (separated by a comma ";") that are mentioned in the textual instance. This column can be used for Task 2 (Variable Disambiguation).
 research_data:  Research data IDs (separated by a ";") that are relevant for each instance (and in general for each "doc_id").
 doc_id:         ID of the source document. Each document is written in one language (either English or German).
 uuid:           Unique ID of the instance in uuid4 format.

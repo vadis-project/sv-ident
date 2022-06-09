@@ -5,8 +5,8 @@ This folder currently contains trial data, which is split into training and test
 ```
 context_id:     ID of the context of the textual instance.
 text:           Textual instance, which may contain a variable mention.
-is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0).
-variable:       Variables (separated by a comma ",") that are mentioned in the textual instance. The variable ID number is to the left of the hyphen "-", while to the right, "yes" variables are those that are mentioned in the textual instance and "no" variables are those that are semantically relevant, but are not mentioned in the text.
+is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0). This column can be used for Task 1 (Variable Detection).
+variable:       Variables (separated by a comma ",") that are mentioned in the textual instance. The variable ID number is to the left of the hyphen "-", while to the right, "yes" variables are those that are mentioned in the textual instance and "no" variables are those that are semantically relevant, but are not mentioned in the text. This column can be used for Task 2 (Variable Disambiguation).
 doc_id:         ID of the source document.
 uuid:           Unique ID of the instance in uuid4 format.
 ```
