@@ -14,7 +14,19 @@ doc_id:         ID of the source document. Each document is written in one langu
 uuid:           Unique ID of the instance in uuid4 format.
 ```
 
-The vocabulary can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). The files may contain any (or some) of the following values:
+The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json), which maps `doc_id` to a language code (`en`, `de`). The variables metadata (i.e., the vocabulary) can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). The metadata file has the following format:
+
+```
+{
+  "research_data_id": {
+    "variable_id": VARIABLE_METADATA,
+    ...
+  }
+  ...
+}
+```
+
+Each variable may contain all (or some) of the following values:
 ```
 study_title:        The title of the research data study.
 variable_label:     The label of the variable.
@@ -53,5 +65,3 @@ An example of a single variable can be seen below:
   ]
 }
 ```
-
-The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json).
