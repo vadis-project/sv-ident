@@ -1,9 +1,6 @@
 ## Data
 
-> **Warning**
-> This repository currently only contains half of the training data. We will release the full data soon! Stay tuned!
-
-This folder currently contains training data. In total, it contains 1980 sentences. The files contain the following columns:
+This folder currently contains training data. In total, it contains 4248 sentences. The files contain the following columns:
 
 ```
 sentence:       Textual instance, which may contain a variable mention.
