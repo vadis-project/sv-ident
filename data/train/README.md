@@ -1,6 +1,6 @@
 ## Data
 
-This folder currently contains training data. In total, it contains 4248 sentences. The files contain the following columns:
+This folder currently contains training data. In total, there are 4,248 sentences. The data file is made up of the following columns:
 
 ```
 sentence:       Textual instance, which may contain a variable mention.
@@ -62,3 +62,9 @@ An example of a single variable can be seen below:
   ]
 }
 ```
+
+### Usage
+
+To load the data, you can simply use HuggingFace Datasets:
+
+![Example for loading the dataset using the Datasets library.](./figures/load_dataset.png)
