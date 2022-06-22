@@ -22,7 +22,7 @@ Visit our [homepage](https://vadis-project.github.io/sv-ident-sdp2022/) for more
 ## Data
 This repository contains trial data (found [here](https://github.com/vadis-project/sv-ident/tree/main/data/trial)) and training data (found [here](https://github.com/vadis-project/sv-ident/tree/main/data/train)). The training data also resides under the `vadis/sv-ident` tag on [HuggingFace Datsets](https://huggingface.co/datasets/vadis/sv-ident). For details on the data format, please have a look at the README files for each data directory. For Task 2 (Variable Disambiguation), in addition to the training data, the variable vocabulary is necessary to disambiguate among the thousands of possible variables. The vocabulary can be downloaded from [here](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). For the trial data, the variable vocabulary is already provided in the respective directory.
 
-![Example for loading the training dataset using the Datasets library.](./data/train/figures/load_dataset.png)
+![Example for loading the training dataset using the Datasets library.](https://github.com/vadis-project/sv-ident/blob/main/data/train/figures/load_dataset.png)
 
 ## Baselines
 We provide lexical and neural baselines for both tasks. The [notebooks](https://github.com/vadis-project/sv-ident/tree/main/notebooks) can be used as starting points.
