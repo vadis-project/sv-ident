@@ -67,6 +67,6 @@ An example of a single variable can be seen below:
 
 To load the data, you can simply use HuggingFace Datasets:
 
-![Example for loading the dataset using the Datasets library.](./figures/load_dataset.png)
+![Example for loading the dataset using the Datasets library.](https://github.com/vadis-project/sv-ident/blob/main/data/train/figures/load_dataset.png)
 
 Note: until the data has been merged into the official repository (see this [pull request](https://github.com/huggingface/datasets/pull/4489)), you can load it using [this fork](https://github.com/e-tornike/datasets/tree/sv-ident).
