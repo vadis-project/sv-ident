@@ -11,15 +11,17 @@ doc_id:         ID of the source document. Each document is written in one langu
 uuid:           Unique ID of the instance in uuid4 format.
 ```
 
-The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json), which maps `doc_id` to a language code (`en`, `de`). The variables metadata (i.e., the vocabulary) can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). The metadata file has the following format:
+The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json), which maps `doc_id` to a language code (`en`, `de`). The variables metadata (i.e., the vocabulary) can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). Note, that each `research_data` contains hundres of variables (these can be understood as the corpus of documents to choose the most relevant from). The metadata file has the following format:
 
 ```
 {
-  "research_data_id": {
-    "variable_id": VARIABLE_METADATA,
+  "research_data_id_1": {
+    "variable_id_1": VARIABLE_METADATA,
     ...
-  }
+    "variable_id_n": VARIABLE_METADATA,
+  },
   ...
+  "research_data_id_n": {...},
 }
 ```
 
@@ -67,7 +69,7 @@ An example of a single variable can be seen below:
 
 To load the data, you can simply use HuggingFace Datasets:
 
-![Example for loading the dataset using the Datasets library.](./figures/load_dataset.png)
+![Example for loading the dataset using the Datasets library.](https://github.com/vadis-project/sv-ident/blob/main/data/train/figures/load_dataset.png)
 
 Note: until the data has been merged into the official repository (see this [pull request](https://github.com/huggingface/datasets/pull/4489)), you can load it using [this fork](https://github.com/e-tornike/datasets/tree/sv-ident).
 
