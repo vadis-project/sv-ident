@@ -5,13 +5,13 @@ This folder currently contains training data. In total, there are 4,248 sentence
 ```
 sentence:       Textual instance, which may contain a variable mention.
 is_variable:    Label, whether the textual instance contains a variable mention (1) or not (0). This column can be used for Task 1 (Variable Detection).
-variable:       Variables (separated by a comma ";") that are mentioned in the textual instance. This column can be used for Task 2 (Variable Disambiguation).
+variable:       Variables (separated by a comma ";") that are mentioned in the textual instance. This column can be used for Task 2 (Variable Disambiguation). Variables with the "unk" tag could not be mapped to a unique variable.
 research_data:  Research data IDs (separated by a ";") that are relevant for each instance (and in general for each "doc_id").
 doc_id:         ID of the source document. Each document is written in one language (either English or German).
 uuid:           Unique ID of the instance in uuid4 format.
 ```
 
-The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json), which maps `doc_id` to a language code (`en`, `de`). The variables metadata (i.e., the vocabulary) can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). Note, that each `research_data` contains hundres of variables (these can be understood as the corpus of documents to choose the most relevant from). The metadata file has the following format:
+The language for each document can be found in the document-language mapping file [here](https://github.com/vadis-project/sv-ident/blob/main/data/train/document_languages.json), which maps `doc_id` to a language code (`en`, `de`). The variables metadata (i.e., the vocabulary) can be downloaded from this [link](https://drive.google.com/file/d/18slgACOcE8-_xIDX09GrdpFSqRRcBiON/view?usp=sharing). We recommend downloading it into this directory (`/sv-ident/data/train/`). Note, that each `research_data` contains hundres of variables (these can be understood as the corpus of documents to choose the most relevant from). If the variable has an "unk" tag, it means that the sentence contains a variable that has not been disambiguated. Such sentences could be used for Task 1 and filtered out for Task 2. The metadata file has the following format:
 
 ```
 {
