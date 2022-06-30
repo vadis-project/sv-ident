@@ -18,7 +18,7 @@ The task aims to build systems that, given a scientific social science publicati
 The shared task is split into two sub-tasks:
 
 - Task 1 - Variable Detection: identifying whether a sentence contains a variable mention or not.
-- Task 2 - Variable Disambiguation: identifying which variable from a given vocabulary is mentioned in a sentence.
+- Task 2 - Variable Disambiguation: identifying which variable from a given vocabulary is mentioned in a sentence. **NOTE**: for this task, you will need to also download the variable metadata from [here](https://bit.ly/3Nuvqdu).
 
 Visit our [homepage](https://vadis-project.github.io/sv-ident-sdp2022/) for more details on the task and submission.
 
