@@ -16,7 +16,7 @@ This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable
 > We released trial data
 
 ## Task Description
-The task aims to build systems that, given a scientific social science publication, can robustly identify all mentions of relevant survey variables (see [http://www.aclweb.org/anthology/W17-2907](http://www.aclweb.org/anthology/W17-2907) for more explanations). 
+The task aims to build systems that, given a scientific social science publication, can robustly identify all mentions of relevant survey variables [[1](https://aclanthology.org/W17-2907/),[2](https://aclanthology.org/L18-1084/)].
 
 The shared task is split into two sub-tasks:
 
@@ -87,3 +87,8 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 
 ### License
 Please view the license section in the README of each data directory (trial and [train](https://github.com/vadis-project/sv-ident/tree/main/data/train#license)).
+
+### References
+[1] Andrea Zielinski and Peter Mutschke. 2017. Mining Social Science Publications for Survey Variables. In Proceedings of the Second Workshop on NLP and Computational Social Science, pages 47–52, Vancouver, Canada. Association for Computational Linguistics.
+
+[2] Andrea Zielinski and Peter Mutschke. 2018. Towards a Gold Standard Corpus for Variable Detection and Linking in Social Science Publications. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA).
