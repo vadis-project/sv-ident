@@ -1,2 +1,2 @@
-pytrec-eval==0.5
+ranx==0.2.8
 scikit-learn==1.0.1
