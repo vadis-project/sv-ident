@@ -46,7 +46,7 @@ pip3 install -r requirements.txt
 If you just wish to only install the dependencies for the evaluation, you can install those using `requirements.eval.txt`.
 
 ## Evaluation
-To evaluate your performance, you can use the [evaluation scripts](https://github.com/vadis-project/sv-ident/tree/main/scripts) for each task. Task 1 will be evaluated using sklearn's F1-macro (as implemented in `evaluate_task1.py`). Task 2 will be evaluated using (Mean) Average Precision with a cutoff of 10 (MAP@10) using [ranx](https://amenra.github.io/ranx/metrics/#mean-average-precision).
+To evaluate your performance, you can use the [evaluation scripts](https://github.com/vadis-project/sv-ident/tree/main/scripts) for each task. Task 1 will be evaluated using sklearn's F1-macro (as implemented in `scripts/evaluate_task1.py`). Task 2 will be evaluated using (Mean) Average Precision with a cutoff of 10 (MAP@10) using [ranx](https://amenra.github.io/ranx/metrics/#mean-average-precision) (as implemented in `scripts/evaluate_task2.py`).
 
 ## Repository Structure
 ```
