@@ -3,6 +3,9 @@
 This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
 
 ## News
+> **July 18, 2022:**
+> We have released the test data and are evaluating submissions via [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6400)
+
 > **July 5, 2022:**
 > We have extended the registration deadline **until July 14th!** Register [here](https://forms.gle/qErcUKBc2mCednJ79) to participate!
 
