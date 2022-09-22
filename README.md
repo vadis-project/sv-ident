@@ -88,6 +88,18 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 └── requirements.txt
 ```
 
+### Citation
+If you use this data, please cite it as below:
+```
+@incollection{tsereteli2022,
+	title = {Overview of the {SV}-{Ident} 2022 {Shared} {Task} on {Survey} {Variable} {Identification} in {Social} {Science} {Publications}},
+	booktitle = {Proceedings of the {Third} {Workshop} on {Scholarly} {Document} {Processing}},
+	publisher = {Association for Computational Linguistics},
+	author = {Tsereteli, Tornike and Kartal, Yavuz Selim and Ponzetto, Simone Paolo and Zielinski, Andrea and Eckert, Kai and Mayr, Philipp},
+	year = {2022},
+}
+```
+
 ### License
 Please view the license section in the README of each data directory (trial and [train](https://github.com/vadis-project/sv-ident/tree/main/data/train#license)).
 
