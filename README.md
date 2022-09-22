@@ -89,7 +89,7 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 ```
 
 ### Citation
-If you use this data, please cite it as below:
+If you use this dataset, please cite it as below:
 ```
 @incollection{tsereteli2022,
 	title = {Overview of the {SV}-{Ident} 2022 {Shared} {Task} on {Survey} {Variable} {Identification} in {Social} {Science} {Publications}},
