@@ -1,5 +1,8 @@
 # SV-Ident: Survey Variable Identification Shared Task (2022)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/overview-of-the-sv-ident-2022-shared-task-on/variable-disambiguation-on-sv-ident)](https://paperswithcode.com/sota/variable-disambiguation-on-sv-ident?p=overview-of-the-sv-ident-2022-shared-task-on)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/overview-of-the-sv-ident-2022-shared-task-on/variable-detection-on-sv-ident)](https://paperswithcode.com/sota/variable-detection-on-sv-ident?p=overview-of-the-sv-ident-2022-shared-task-on)
+
 This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
 
 ## News
