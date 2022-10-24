@@ -7,7 +7,7 @@ This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable
 
 ## News
 > **October 17, 2022:**
-> The [shared task competition on CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6400) is now open-ended with no deadline and there are no submission limits.
+> The [shared task competition on CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6400) is now open-ended with no deadline and no submission limits.
 
 > **October 12, 2022:**
 > We have published an overview of the results for the shared task [[3](https://aclanthology.org/2022.sdp-1.29/)].
