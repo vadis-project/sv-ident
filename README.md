@@ -6,6 +6,12 @@
 This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable **Ident**ification, which will be held at the [Third Workshop on Scholarly Document Processing](https://sdproc.org/2022/) at [COLING 2022](https://coling2022.org).
 
 ## News
+> **October 17, 2022:**
+> The [shared task competition on CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6400) is now open-ended with no deadline and there are no submission limits.
+
+> **October 12, 2022:**
+> We have published an overview of the results for the shared task [[3](https://aclanthology.org/2022.sdp-1.29/)].
+
 > **July 18, 2022:**
 > We have released the test data and are evaluating submissions via [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6400)
 
@@ -22,7 +28,7 @@ This is the repository for the shared task **SV-Ident**: **S**urvey **V**ariable
 > We released trial data
 
 ## Task Description
-The task aims to build systems that, given a scientific social science publication, can robustly identify all mentions of relevant survey variables [[1](https://aclanthology.org/W17-2907/),[2](https://aclanthology.org/L18-1084/)].
+The task aims to build systems that, given a scientific social science publication, can robustly identify all mentions of relevant survey variables [[1](https://aclanthology.org/W17-2907/), [2](https://aclanthology.org/L18-1084/), [3](https://aclanthology.org/2022.sdp-1.29/)].
 
 The shared task is split into two sub-tasks:
 
@@ -94,12 +100,22 @@ To evaluate your performance, you can use the [evaluation scripts](https://githu
 ### Citation
 If you use this dataset, please cite it as below:
 ```
-@incollection{tsereteli2022,
-	title = {Overview of the {SV}-{Ident} 2022 {Shared} {Task} on {Survey} {Variable} {Identification} in {Social} {Science} {Publications}},
-	booktitle = {Proceedings of the {Third} {Workshop} on {Scholarly} {Document} {Processing}},
-	publisher = {Association for Computational Linguistics},
-	author = {Tsereteli, Tornike and Kartal, Yavuz Selim and Ponzetto, Simone Paolo and Zielinski, Andrea and Eckert, Kai and Mayr, Philipp},
-	year = {2022},
+@inproceedings{tsereteli-etal-2022-overview,
+    title = "Overview of the {SV}-Ident 2022 Shared Task on Survey Variable Identification in Social Science Publications",
+    author = "Tsereteli, Tornike  and
+      Kartal, Yavuz Selim  and
+      Ponzetto, Simone Paolo  and
+      Zielinski, Andrea  and
+      Eckert, Kai  and
+      Mayr, Philipp",
+    booktitle = "Proceedings of the Third Workshop on Scholarly Document Processing",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.sdp-1.29",
+    pages = "229--246",
+    abstract = "In this paper, we provide an overview of the SV-Ident shared task as part of the 3rd Workshop on Scholarly Document Processing (SDP) at COLING 2022. In the shared task, participants were provided with a sentence and a vocabulary of variables, and asked to identify which variables, if any, are mentioned in individual sentences from scholarly documents in full text. Two teams made a total of 9 submissions to the shared task leaderboard. While none of the teams improve on the baseline systems, we still draw insights from their submissions. Furthermore, we provide a detailed evaluation. Data and baselines for our shared task are freely available at \url{https://github.com/vadis-project/sv-ident}.",
 }
 ```
 
@@ -110,3 +126,5 @@ Please view the license section in the README of each data directory (trial and 
 [1] Andrea Zielinski and Peter Mutschke. 2017. Mining Social Science Publications for Survey Variables. In Proceedings of the Second Workshop on NLP and Computational Social Science, pages 47–52, Vancouver, Canada. Association for Computational Linguistics.
 
 [2] Andrea Zielinski and Peter Mutschke. 2018. Towards a Gold Standard Corpus for Variable Detection and Linking in Social Science Publications. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA).
+
+[3] Tornike Tsereteli, Yavuz Selim Kartal, Simone Paolo Ponzetto, Andrea Zielinski, Kai Eckert, and Philipp Mayr. 2022. Overview of the SV-Ident 2022 Shared Task on Survey Variable Identification in Social Science Publications. In Proceedings of the Third Workshop on Scholarly Document Processing, pages 229–246, Gyeongju, Republic of Korea. Association for Computational Linguistics.
