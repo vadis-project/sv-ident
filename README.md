@@ -1,3 +1,5 @@
+![Example](https://github.com/vadis-project/sv-ident/blob/main/example.png)
+
 # SV-Ident: Survey Variable Identification Shared Task (2022)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/overview-of-the-sv-ident-2022-shared-task-on/variable-disambiguation-on-sv-ident)](https://paperswithcode.com/sota/variable-disambiguation-on-sv-ident?p=overview-of-the-sv-ident-2022-shared-task-on)
